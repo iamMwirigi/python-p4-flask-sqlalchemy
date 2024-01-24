@@ -26,3 +26,4 @@ class Pet(db.Model):
 
     def __repr__(self):
         return f'<Pet {self.name}, {self.species}>'
+
